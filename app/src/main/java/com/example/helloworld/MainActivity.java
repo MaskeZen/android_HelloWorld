@@ -2,9 +2,11 @@ package com.example.helloworld;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.graphics.Color;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -13,6 +15,7 @@ public class MainActivity extends AppCompatActivity {
     private static final String LOG_TAG = MainActivity.class.getSimpleName();
     private int mCount = 0;
     private TextView mShowCount;
+    private Button resetButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,7 +23,9 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         mShowCount = (TextView) findViewById(R.id.show_count);
+        resetButton = (Button) findViewById(R.id.button_reset);
         Log.d(LOG_TAG, "Hello World!");
+        displayMCount();
     }
 
     public void showToast(View view) {
@@ -30,8 +35,22 @@ public class MainActivity extends AppCompatActivity {
 
     public void countUp(View view) {
         mCount++;
+        displayMCount();
+        if (resetButton != null) {
+            resetButton.setBackgroundColor(Color.GREEN);
+        }
+    }
+
+    public void resetCount(View view) {
+        mCount = 0;
+        view.setBackgroundColor(Color.GRAY);
+        displayMCount();
+    }
+
+    public void displayMCount() {
         if (mShowCount != null) {
             mShowCount.setText(Integer.toString(mCount));
         }
     }
+
 }
