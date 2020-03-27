@@ -14,8 +14,8 @@
 
 ### Lesson 2: Activities and intents
 
-- [ ] [2.1: Activities and intents](https://codelabs.developers.google.com/codelabs/android-training-create-an-activity/index.html?index=..%2F..%2Fandroid-training#0)
-- [ ] [2.2: Activity lifecycle and state](https://codelabs.developers.google.com/codelabs/android-training-activity-lifecycle-and-state/index.html?index=..%2F..%2Fandroid-training#0)
+- [X] [2.1: Activities and intents](https://codelabs.developers.google.com/codelabs/android-training-create-an-activity/index.html?index=..%2F..%2Fandroid-training#0)
+- [X] [2.2: Activity lifecycle and state](https://codelabs.developers.google.com/codelabs/android-training-activity-lifecycle-and-state/index.html?index=..%2F..%2Fandroid-training#0)
 - [ ] [2.3: Implicit intents](https://codelabs.developers.google.com/codelabs/android-training-activity-with-implicit-intent/index.html?index=..%2F..%2Fandroid-training#0)
 
 ### Lesson 3: Testing, debugging, and using support libraries
@@ -73,6 +73,8 @@
 ## Homework
 
 - [ ] [01.2 Part B: The layout editor](https://codelabs.developers.google.com/codelabs/android-training-layout-editor-part-b/#9)
+- [ ] [02.1: TwoActivities](https://codelabs.developers.google.com/codelabs/android-training-layout-editor-part-b/#9)
+- [ ] [02.2: Activity lifecycle and state](https://codelabs.developers.google.com/codelabs/android-training-activity-lifecycle-and-state/index.html?index=..%2F..%2Fandroid-training#5)
 
 ## Layout
 
