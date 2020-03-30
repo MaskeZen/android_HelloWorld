@@ -16,13 +16,13 @@
 
 - [X] [2.1: Activities and intents](https://codelabs.developers.google.com/codelabs/android-training-create-an-activity/index.html?index=..%2F..%2Fandroid-training#0)
 - [X] [2.2: Activity lifecycle and state](https://codelabs.developers.google.com/codelabs/android-training-activity-lifecycle-and-state/index.html?index=..%2F..%2Fandroid-training#0)
-- [ ] [2.3: Implicit intents](https://codelabs.developers.google.com/codelabs/android-training-activity-with-implicit-intent/index.html?index=..%2F..%2Fandroid-training#0)
+- [X] [2.3: Implicit intents](https://codelabs.developers.google.com/codelabs/android-training-activity-with-implicit-intent/index.html?index=..%2F..%2Fandroid-training#0)
 
 ### Lesson 3: Testing, debugging, and using support libraries
 
-- [ ] [3.1: The debugger](https://codelabs.developers.google.com/codelabs/android-training-using-debugger/index.html?index=..%2F..%2Fandroid-training#0)
-- [ ] [3.2: Unit tests](https://codelabs.developers.google.com/codelabs/android-training-unit-tests/index.html?index=..%2F..%2Fandroid-training#0)
-- [ ] [3.3: Support libraries](https://codelabs.developers.google.com/codelabs/android-training-support-libraries/index.html?index=..%2F..%2Fandroid-training#0)
+- [X] [3.1: The debugger](https://codelabs.developers.google.com/codelabs/android-training-using-debugger/index.html?index=..%2F..%2Fandroid-training#0)
+- [X] [3.2: Unit tests](https://codelabs.developers.google.com/codelabs/android-training-unit-tests/index.html?index=..%2F..%2Fandroid-training#0)
+- [X] [3.3: Support libraries](https://codelabs.developers.google.com/codelabs/android-training-support-libraries/index.html?index=..%2F..%2Fandroid-training#0)
 
 ## Unit 2: User experience
 

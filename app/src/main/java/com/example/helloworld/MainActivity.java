@@ -1,9 +1,11 @@
 package com.example.helloworld;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.graphics.Color;
 import android.os.Bundle;
+import android.os.PersistableBundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
@@ -25,7 +27,17 @@ public class MainActivity extends AppCompatActivity {
         mShowCount = (TextView) findViewById(R.id.show_count);
         resetButton = (Button) findViewById(R.id.button_reset);
         Log.d(LOG_TAG, "Hello World!");
+
+        if (savedInstanceState != null) {
+            mCount = savedInstanceState.getInt("count_state", 0);
+        }
         displayMCount();
+    }
+
+    @Override
+    public void onSaveInstanceState(@NonNull Bundle outState) {
+        super.onSaveInstanceState(outState);
+        outState.putInt("count_state", mCount);
     }
 
     public void showToast(View view) {
