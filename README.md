@@ -32,7 +32,7 @@
 - [X] [4.2: Input controls](https://codelabs.developers.google.com/codelabs/android-training-input-controls/index.html?index=..%2F..%2Fandroid-training#0)
 - [X] [4.3: Menus and pickers](https://codelabs.developers.google.com/codelabs/android-training-menus-and-pickers/index.html?index=..%2F..%2Fandroid-training#0)
 - [X] [4.4: User navigation](https://codelabs.developers.google.com/codelabs/android-training-provide-user-navigation/index.html?index=..%2F..%2Fandroid-training#0)
-- [ ] [4.5: RecyclerView](https://codelabs.developers.google.com/codelabs/android-training-create-recycler-view/index.html?index=..%2F..%2Fandroid-training#0)
+- [X] [4.5: RecyclerView](https://codelabs.developers.google.com/codelabs/android-training-create-recycler-view/index.html?index=..%2F..%2Fandroid-training#0)
 
 ### Lesson 5: Delightful user experience
 
@@ -69,6 +69,10 @@
 
 - [ ] [10.1 Part A: Room, LiveData, and ViewModel](https://codelabs.developers.google.com/codelabs/android-training-livedata-viewmodel/index.html?index=..%2F..%2Fandroid-training#0)
 - [ ] [10.1 Part B: Deleting data from a Room database](https://codelabs.developers.google.com/codelabs/android-training-room-delete-data/index.html?index=..%2F..%2Fandroid-training#0)
+
+## Next
+
+[advanced-android-training](https://codelabs.developers.google.com/advanced-android-training/)
 
 ## Homework
 
